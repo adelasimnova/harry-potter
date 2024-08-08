@@ -1,0 +1,17 @@
+.harry-potter-heading{
+   display: flex;
+   justify-content:center;
+}
+
+.search-input-wrapper {
+    display: flex;
+    justify-content:center;
+}
+
+.search-input {
+    padding: 5px 10px;
+}
+
+.loading-wrapper {
+    height: 60px;
+}
