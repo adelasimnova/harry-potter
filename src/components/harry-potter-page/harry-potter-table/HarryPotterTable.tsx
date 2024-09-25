@@ -26,16 +26,16 @@ export default function HarryPotterTable(props: IProps) {
       <table>
         <thead className="table-header">
           <tr>
-            <td>Image</td>
-            <td>Name</td>
-            <td>Gender</td>
-            <td>Year of birth</td>
-            <td>Species</td>
-            <td>Wizard</td>
-            <td>Ancestry</td>
-            <td>Eye color</td>
-            <td>Hair color</td>
-            <td>Patronus</td>
+            <td className="table-header">Image</td>
+            <td className="table-header">Name</td>
+            <td className="table-header">Gender</td>
+            <td className="table-header">Year of birth</td>
+            <td className="table-header">Species</td>
+            <td className="table-header">Wizard</td>
+            <td className="table-header">Ancestry</td>
+            <td className="table-header">Eye color</td>
+            <td className="table-header">Hair color</td>
+            <td className="table-header">Patronus</td>
           </tr>
         </thead>
         <tbody>

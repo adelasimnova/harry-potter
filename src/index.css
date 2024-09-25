@@ -1,6 +1,10 @@
 body {
+    background-image: url("src/static/wizard.jpg");
+    background-size: cover;
     margin: 0;
-    font-family:  Arial, Helvetica, sans-serif;
-    background-color: #fffac6;
-    color: #bf1819;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

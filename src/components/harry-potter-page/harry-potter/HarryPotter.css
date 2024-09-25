@@ -1,6 +1,7 @@
 .harry-potter-heading{
    display: flex;
    justify-content:center;
+   text-align: center;
 }
 
 .search-input-wrapper {
@@ -14,4 +15,5 @@
 
 .loading-wrapper {
     height: 60px;
+    padding-top: 20px;
 }

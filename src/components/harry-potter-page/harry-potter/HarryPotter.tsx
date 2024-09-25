@@ -53,19 +53,19 @@ export function HarryPotter() {
 
   return (
     <div>
-      <h1>Harry Potter Characters</h1>
-      <div>
+      <h1 className="harry-potter-heading">Harry Potter Characters</h1>
+      <div className="search-input-wrapper">
         <input
           className="search-input"
           placeholder="Search here!"
           onChange={handleChange}
           value={searchText}
         />
-        <div className="loading-wrapper">
-          {charactersLoading && <LoadingScreen />}
-        </div>
-        {error && <p>{error}</p>}
       </div>
+      <div className="loading-wrapper">
+        {charactersLoading && <LoadingScreen />}
+      </div>
+      {error && <p>{error}</p>}
       {filteredCharacters && (
         <HarryPotterTable
           characters={filteredCharacters}
