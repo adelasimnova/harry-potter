@@ -19,18 +19,18 @@ export default function Pagination(props: IProps) {
   }
   return (
     <div className="page">
-      <div>
-        {pages.map((item) => (
-          <button
-            className={
-              props.currentPage === item - 1 ? "selected-page-number" : ""
-            }
-            onClick={() => handleSetCurrentPage(item - 1)}
-          >
-            {item}
-          </button>
-        ))}
-      </div>
+      {pages.map((item) => (
+        <button
+          className={
+            props.currentPage === item - 1
+              ? "page-number selected-page-number"
+              : "page-number"
+          }
+          onClick={() => handleSetCurrentPage(item - 1)}
+        >
+          {item}
+        </button>
+      ))}
     </div>
   );
 }

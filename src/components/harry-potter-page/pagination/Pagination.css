@@ -1,10 +1,28 @@
-.selected-page-number {
-    background-color:gray;
-}
 .page {
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
+}
+
+.page-number {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 30px;
+    margin-right: 3px;
+    color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.page-number:hover{
+    cursor: pointer;
+    color: rgb(6, 163, 155)
+}
+
+.selected-page-number {
+    color: rgb(6, 163, 155)
 }

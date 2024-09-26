@@ -14,12 +14,12 @@ export default function HarryPotterTable(props: IProps) {
   console.log(props.characters);
 
   let charactersOnPage: ICharacter[] = [];
-  if (props.characters.length > ITEMS_PER_PAGE) {
-    charactersOnPage = props.characters.slice(
-      props.currentPage * ITEMS_PER_PAGE,
-      props.currentPage * ITEMS_PER_PAGE + ITEMS_PER_PAGE,
-    );
-  }
+  // if (props.characters.length > ITEMS_PER_PAGE) {
+  charactersOnPage = props.characters.slice(
+    props.currentPage * ITEMS_PER_PAGE,
+    props.currentPage * ITEMS_PER_PAGE + ITEMS_PER_PAGE,
+  );
+  // }
 
   return (
     <div>
@@ -33,8 +33,6 @@ export default function HarryPotterTable(props: IProps) {
             <td className="table-header">Species</td>
             <td className="table-header">Wizard</td>
             <td className="table-header">Ancestry</td>
-            <td className="table-header">Eye color</td>
-            <td className="table-header">Hair color</td>
             <td className="table-header">Patronus</td>
           </tr>
         </thead>
@@ -44,15 +42,13 @@ export default function HarryPotterTable(props: IProps) {
               <td>
                 <img src={item.image} className="character-image"></img>
               </td>
-              <td>{item.name}</td>
-              <td>{item.gender}</td>
-              <td>{item.yearOfBirth}</td>
-              <td>{item.species}</td>
-              <td>{item.wizard ? "yes" : "no"}</td>
-              <td>{item.ancestry}</td>
-              <td>{item.eyeColour}</td>
-              <td>{item.hairColour}</td>
-              <td>{item.patronus}</td>
+              <td className="character-data">{item.name}</td>
+              <td className="character-data">{item.gender}</td>
+              <td className="character-data">{item.yearOfBirth}</td>
+              <td className="character-data">{item.species}</td>
+              <td className="character-data">{item.wizard ? "yes" : "no"}</td>
+              <td className="character-data">{item.ancestry}</td>
+              <td className="character-data">{item.patronus}</td>
             </tr>
           ))}
         </tbody>
