@@ -20,9 +20,11 @@
 
 .page-number:hover{
     cursor: pointer;
-    color: rgb(6, 163, 155)
+    color: rgb(6, 163, 155);
+    background-color: rgb(67, 75, 80);
 }
 
 .selected-page-number {
-    color: rgb(6, 163, 155)
+    color: rgb(6, 163, 155);
+    background-color: rgb(67, 75, 80);
 }
