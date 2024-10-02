@@ -6,13 +6,18 @@ This web application displays a list of characters from the Harry Potter series.
 
 ## Features
 **Character Table:** Shows a list of Harry Potter characters with details such as name, gender, year of birth, species, house, and more.
+
 **Search Functionality:** Allows users to search for characters by name.
+
 **Pagination:** Displays 50 characters per page with navigation for additional pages.
+
 **Loading Indicator:** Displays while the character data is being fetched.
+
 **Error Handling:** Shows an error message if data fetching fails.
 
 ## Technologies Used
 **Frontend:** HTML, CSS, React
+
 **API:** https://hp-api.herokuapp.com/
 
 # Setup
