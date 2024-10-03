@@ -9,14 +9,14 @@ This web application displays a list of characters from the Harry Potter series.
 
 **Search Functionality:** Allows users to search for characters by name.
 
-**Pagination:** Displays 50 characters per page with navigation for additional pages.
+**Pagination:** Displays 20 characters per page with navigation for additional pages.
 
 **Loading Indicator:** Displays while the character data is being fetched.
 
 **Error Handling:** Shows an error message if data fetching fails.
 
 ## Technologies Used
-**Frontend:** HTML, CSS, React
+**Frontend:** HTML, CSS, JavaScript, TypeScript, React
 
 **API:** https://hp-api.herokuapp.com/
 
