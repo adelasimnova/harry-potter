@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ICharacter } from "../types/ICharacter";
 
-const HP_CHARACTER_API_URL = "https://hp-api.herokuapp.com/api/characters";
+const HP_CHARACTER_API_URL = "https://hp-api.onrender.com/api/characters";
 
 export async function getCharacters(): Promise<ICharacter[]> {
   const result = await axios.get(HP_CHARACTER_API_URL);
