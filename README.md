@@ -1,5 +1,5 @@
 # Harry Potter App
-[Demo](https://webbucket-cdn-harry-potter-production-8848353a.stacktape-app.com/)
+[Demo](https://harry-potter.simnova.sk)
 
 # Project Description
 This web application displays a list of characters from the Harry Potter series. Built using React, the app fetches data from an external API and allows users to browse through characters in a tabular format. It also supports searching by name and pagination for easy navigation.
