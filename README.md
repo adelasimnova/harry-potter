@@ -18,7 +18,7 @@ This web application displays a list of characters from the Harry Potter series.
 ## Technologies Used
 **Frontend:** HTML, CSS, JavaScript, TypeScript, React
 
-**API:** https://hp-api.herokuapp.com/
+**API:** https://hp-api.onrender.com/
 
 # Setup
 1. Install [Node and npm](https://nodejs.org/en/download). 
